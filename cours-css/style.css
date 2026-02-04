@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Oswald:wght@200..700&display=swap');
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  /* Les tailles de polices doivent être en REM */
+  font-size: 2rem;
+  text-shadow: 6px 5px 6px rgb(0 0 0 / 32%);
+  color: #ab0ef4;
+  font-family: "Bungee", sans-serif;
+}
