@@ -1,71 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gravitas+One&family=Oswald:wght@200..700&display=swap');
 
-body {
-    padding: 0;
-    margin: 0;
-    background-color: #8d8d8d;
-    font-family: "Oswald", sans-serif;
-}
 
 h1 {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 4rem;
-    text-shadow: 6px 5px 6px rgb(0 0 0 / 32%);
-    color: white;
-    font-family: "Bungee", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  /* Les tailles de polices doivent être en REM */
+  font-size: 4rem;
+  text-shadow: 6px 5px 6px rgb(0 0 0 / 32%);
+  color: white;
+  font-family: "Bungee", sans-serif;
 }
 
-h2 {
+h2{
+    text-align: left;
     font-size: 2rem;
-    color: white;
     font-family: "Gravitas One", serif;
     text-shadow: 6px 5px 6px rgb(0 0 0 / 32%);
 }
 
+body  {
+    padding: 0;
+    margin: 0;
+background-color: #8d8d8d;
+}
+
 nav {
-    text-align: center;
+    text-align: center; /* Centrer le texte*/
     font-size: 20px;
 }
 
-ul {
+ul  {
     display: flex;
     justify-content: space-around;
-    padding: 0;
-}
-
-nav li {
-    list-style: none;
 }
 
 a {
     color: white;
-    text-decoration: none;
+text-decoration: none;
 }
 
-.image {
-    width: 100%;
+nav li  {
+  display: inline;
+  list-style: none;
 }
 
-.accueil {
+h2{
+    font-family: "Bungee", sans-serif;
+}
+
+/* Fin partie header*/
+/* Début image*/
+.image{
+  width: 100%;
+}
+/*Fin image*/
+
+/*Début accueil*/
+.accueil{
     text-align: center;
     color: white;
 }
-
-.parcours {
+.parcours{
     color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 40px;
+    height: 55%;
 }
-
-.parcoursgauche {
+.parcoursgauche{
     width: 60%;
+    margin-right: 10px;
+}
+.parcoursimage{
+    margin-top: 2%;
+    float: right;
+}
+/*Fin accueil*/
+
+/*Début études*/
+.etudes {
+    background-image: url(images/simonevomfeld-sunrise-7493833_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0 10%;
 }
 
-.parcoursimage img {
-    width: 400px;
-    border-radius: 30px;
-    box-shadow: 3px 3px black;
+.titreetudes {
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
 }
+
+.etudesecole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* espace entre les blocs */
+}
+
+.ecole {
+    border-radius: 8px;
+    width: 70%;
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align: center;
+}
+
+.ecole img {
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+/*Fin études*/
