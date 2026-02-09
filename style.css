@@ -21,7 +21,7 @@ h2{
 body  {
     padding: 0;
     margin: 0;
-background-color: #40513B;
+background-color: #8d8d8d;
 }
 
 nav {
@@ -119,8 +119,10 @@ h2{
 
 
 /*Fin études*/
+
 /*Début expériences*/
 .experiences{
+    background-image: url(images/alainaudet-sunset-2421639_1280.jpg);
     padding-bottom: 5%; /*Ca va créer un espace en dessous du dernier bloc blanc*/
 }
 
@@ -129,7 +131,7 @@ h2{
     color: white;
 }
 
-.experiences h1{
+h2 {
     text-align: center;
 }
 
@@ -138,7 +140,7 @@ h2{
     margin-left: 23%; /*Ca permet d'écarter les 2 blocs blanc vers la droite*/
 }
 
-.experienceinterim{
+.experiencepro{
     border-radius: 8px;
     width: 70%;
     background-color: white;
@@ -147,8 +149,8 @@ h2{
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
-.experienceinterim{
-    margin-left: 43%;
+.experiencepro img{
+margin-left: 43%;
     width: 10%;
     height: 20%;
 } 
