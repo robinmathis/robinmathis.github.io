@@ -133,8 +133,13 @@ h2{
 
 .experiences h1{
     text-align: center;
+    color: black;
 }
 
+.experiences h2{
+  text-align: center;
+    color: black;
+}
 
 .expcadre{
     margin-top: 5%;
