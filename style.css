@@ -131,7 +131,7 @@ h2{
     color: white;
 }
 
-h5 {
+experiences h1 {
     text-align: center;
 }
 
@@ -141,12 +141,10 @@ h5 {
 }
 
 .experiencepro{
-    border-radius: 8px;
     width: 70%;
+    height: 20%;
     background-color: white;
-    padding: 40px 20px;
-    text-align: center;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    align-item: center;
 }
 
 .experiencepro img{
