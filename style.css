@@ -137,6 +137,11 @@ experiences h1 {
     text-align: center;
 }
 
+h3{
+  text-align: center;
+  font-family: "Bungee", sans-serif;
+}
+
 .expcadre{
     margin-top: 5%;
     margin-left: 23%; /*Ca permet d'écarter les 2 blocs blanc vers la droite*/
@@ -147,6 +152,7 @@ experiences h1 {
     height: 20%;
     background-color: white;
     align-item: center;
+    text-align: center;
 }
 
 .experiencepro img{
