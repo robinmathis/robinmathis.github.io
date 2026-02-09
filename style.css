@@ -121,14 +121,22 @@ h2{
 /*Fin études*/
 
 /*Début expériences*/
+.image{
+  width: 100%;
+}
+
 .experiences{
     background-image: url(images/dimitrisvetsikas1969-sunset-7865844_1920.jpg);
     padding-bottom: 5%; /*Ca va créer un espace en dessous du dernier bloc blanc*/
 }
 
 .titreexperiences{
+    border-radius: 8px;
+    width: 70%;
+    background-color: white;
+    padding: 40px 20px;
     text-align: center;
-    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .experiences h1{
