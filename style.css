@@ -124,6 +124,8 @@ h2{
 .experiences{
     background-image: url(images/alainaudet-sunset-2421639_1280.jpg);
     padding-bottom: 5%; /*Ca va créer un espace en dessous du dernier bloc blanc*/
+    background-size: cover;
+    background-position: center;
 }
 
 .titreexperiences{
