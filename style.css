@@ -121,7 +121,6 @@ h2{
 /*Fin études*/
 /*Début expériences*/
 .experiences{
-    background-image: url(images/alainaudet-sunset-2421639_1280.jpg);
     padding-bottom: 5%; /*Ca va créer un espace en dessous du dernier bloc blanc*/
 }
 
@@ -140,10 +139,12 @@ h2{
 }
 
 .experienceinterim{
+    border-radius: 8px;
     width: 70%;
-    height: 20%;
     background-color: white;
-    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .experienceinterim{
