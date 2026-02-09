@@ -149,7 +149,7 @@ h2{
   font-family: "Bungee", sans-serif;
 }
 
-.experiences p{
+.p{
   text-align: left;
     font-size: 2rem;
     font-family: "Gravitas One", serif;
@@ -157,8 +157,12 @@ h2{
 }
 
 .expcadre{
-    margin-top: 5%;
-    margin-left: 23%; /*Ca permet d'écarter les 2 blocs blanc vers la droite*/
+    border-radius: 8px;
+    width: 70%;
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .experienceuniv{
